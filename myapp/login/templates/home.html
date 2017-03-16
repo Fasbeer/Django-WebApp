@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Citations{% endblock %}
+{% block head %}<font size = "10">Welcome {{ user.username }}</font>{% endblock %}
+{% block content %}
+    <p>{{ value }}</p>
+	
+    <a href="{% url 'post_new' %}">Add Citations</a>
+    <a href="/logout/">Logout</a>
+{% endblock %}

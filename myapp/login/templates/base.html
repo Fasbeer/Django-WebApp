@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+    <head>
+	<style>
+     body {
+          background-color: lightyellow;
+          }
+
+     h1 {
+         color: Maroon;
+          margin-left: 40px;
+          }
+    </style>
+	
+        <title>Scenario 3
+        {% block title %}{% endblock %}</title>
+    </head>
+    <body background="https://ae01.alicdn.com/kf/HTB18yb5JVXXXXbjXXXXq6xXFXXXh/Photo-Backdrops-Children-Vinyl-Photo-Props-for-Studio-Photography-font-b-Background-b-font-font-b.jpg">
+	<div align="center"> 
+        <h1>{% block head %}{% endblock %}</h1>
+        {% block content %}{% endblock %}
+    </div>
+	
+    </body>
+</html>
